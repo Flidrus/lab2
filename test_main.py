@@ -1,5 +1,5 @@
 import unittest
-from pawnshop_inventory_service import PawnshopInventoryService
+from main import PawnshopInventoryService
 
 class TestPawnshopInventoryService(unittest.TestCase):
     def setUp(self):

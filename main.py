@@ -5,7 +5,7 @@ class PawnshopInventoryService:
     def add_item(self, item_id, item_name, item_value):
         """Додає річ до інвентаря."""
         if item_id is None:
-	    raise TypeError("Item id cannot be None")
+	        raise TypeError("Item id cannot be None")
         if item_id in self.inventory:
             return "Річ з таким ID вже існує."
         self.inventory[item_id] = {
